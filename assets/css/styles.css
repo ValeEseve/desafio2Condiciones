@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+.primer-ejercicio{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.primer-ejercicio img{
+    width: 250px;
+}
