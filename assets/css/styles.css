@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Roboto';
+    color: rgb(82, 41, 12);
 }
 
 .primer-ejercicio{
@@ -16,3 +17,55 @@ body{
 .primer-ejercicio img{
     width: 250px;
 }
+
+.segundo-ejercicio{
+    background-color: rgb(192, 156, 110);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.segundo-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.segundo-imgs img{
+    width: 250px;
+}
+
+.segundo-inputs{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+
+}
+
+.segundo-inputs input{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.tercer-ejercicio{
+    background-color: rgb(182, 138, 81);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+#tercer-boton{
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgb(75, 51, 19);
+    color: burlywood;
+
+}
+

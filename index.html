@@ -10,6 +10,8 @@
     <main>
         <section class="primer-ejercicio">
             <h1>Primer ejercicio</h1>
+            <p>Haga click en la imagen para agregar o quitar su borde.</p>
+            <!-- JS inline Primer Ejercicio -->
             <img id="primer-imagen" src="./assets/imgs/Pierre-auguste_renoir-woman_in_a_lace_blouse.jpg" alt="Woman in a lace blouse, Pierre Auguste Renoir" onclick="
                 primerImagen = document.querySelector('#primer-imagen')
                 if (primerImagen.style.border == 'none'){
@@ -20,10 +22,64 @@
         </section>
         <section class="segundo-ejercicio">
             <h1>Segundo ejercicio</h1>
+            <p>¡Hola! Elige cuántos stickers quieres de cada uno (máximo 10).</p>
+            <article class="segundo-imgs">
+                <img src="./assets/imgs/sticker1.png" alt="Sticker mujer victoriana leyendo">
+                <img src="./assets/imgs/sticker2.png" alt="Sticker Votes for Women">
+                <img src="./assets/imgs/sticker3.png" alt="Sticker And they were roommates">
+            </article>
+            <article class="segundo-inputs">
+                <input id="input1" type="number" placeholder="Cantidad de stickers">
+                <input id="input2" type="number" placeholder="Cantidad de stickers">
+                <input id="input3" type="number" placeholder="Cantidad de stickers">
+            </article>
+            <p id="segundo-total"></p>
         </section>
         <section class="tercer-ejercicio">
-
+            <h1>Tercer ejercicio</h1>
+            <p>Escriba una de las dos contraseñas secretas:</p>
+            <article class="tercer-select">
+                <select name="" id="tercer-select1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="" id="tercer-select2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="" id="tercer-select3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="0">0</option>
+                </select>
+            </article>
+            <button id="tercer-boton" onclick="verificarContraseña()">Verificar contraseña</button>
+            <p id="tercer-mensaje"></p>
         </section>c
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
